@@ -1,6 +1,6 @@
 # test
 ## Oleg dvoeshnik
-* I am bold *
+**I am bold**
 ``` 
 jakasj hernya
 sudo yum install git 
