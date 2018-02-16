@@ -1,27 +1,27 @@
 #!/bin/bash
 
-createfolder () { 
+createfile   () {
+  touch $1
+}
+newfolder () {
   mkdir $1
 }
-  
-createfile   () {
-  touch $1 
-}
+
 
 dir          () {
-  ls -la  
+  ls -la
 }
 
 while getopts ":d:f:lh" option; do
   case $option in
     d)
-      createfolder $OPTARG
+      newfolder $OPTARG
       ;;
     f)
       createfile $OPTARG
       ;;
     l)
-      dir 
+      dir
       ;;
     h)
       cat readme.txt
@@ -36,4 +36,3 @@ while getopts ":d:f:lh" option; do
       ;;
    esac
 done
-
