@@ -5,3 +5,8 @@
 jakasj hernya
 sudo yum install git 
 ```
+|   |   |   |   |   |
+|:-:|:-:|:-:|---|---|
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
